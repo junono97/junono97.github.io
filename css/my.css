@@ -1,0 +1,73 @@
+
+
+/*所有页面背景 .layout_page>div:first-child:not(.recent-posts), 
+#recent-posts>.recent-post-item,  .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    background: rgba(255,255,255,.5);
+}
+*/
+
+/*侧边透明*/
+#aside-content .card-widget{
+    background: rgba(255,255,255,.5);
+}
+
+
+/*主要内容透明*/
+#recent-posts>.recent-post-item{
+    background: rgba(255,255,255,.5);
+}
+#page,#archive,#post{
+	background: rgba(255,255,255,.8);
+}
+/*#page-header.post-bg{
+	background: rgba(255,255,255,.1);
+	background-image: rgba(255,255,255,.1);
+}*/
+
+
+
+
+/*取消tag标签*/
+#page-site-info{
+	visibility: hidden;
+}
+
+/*某个插件透明*/
+.magnet_item {
+    background: rgba(255,255,255,.5);
+}
+
+
+/*取消站点标题和滚轮*/
+#site-info,#scroll-down{
+  visibility: hidden;
+}
+
+
+/*顶部间距150px*/
+#page-header.not-home-page,#page-header.full_page {
+    min-height: 150px;
+}
+
+
+/*脚注透明*/
+#footer {
+    background: rgba(255,255,255,.0);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(255,255,255,.0)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color)
+}
+
