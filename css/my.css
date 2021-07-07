@@ -20,6 +20,10 @@
 #page,#archive,#post{
 	background: rgba(255,255,255,.8);
 }
+.layout > div:first-child:not(.recent-posts) {
+	background: rgba(255,255,255,.5);
+}
+
 /*#page-header.post-bg{
 	background: rgba(255,255,255,.1);
 	background-image: rgba(255,255,255,.1);

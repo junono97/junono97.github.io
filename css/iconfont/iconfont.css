@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2648706 */
+  src: url('iconfont.woff2?t=1625244439516') format('woff2'),
+       url('iconfont.woff?t=1625244439516') format('woff'),
+       url('iconfont.ttf?t=1625244439516') format('truetype');
+}
+
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\e611";
+}
+
+.icon-envelope:before {
+  content: "\ea98";
+}
+
+.icon-logo-qq:before {
+  content: "\e63c";
+}
+
+.icon-qianniu:before {
+  content: "\e633";
+}
+
+.icon-csdn:before {
+  content: "\e600";
+}
+
+.icon-E-mail:before {
+  content: "\e8aa";
+}
+
+.icon-zhihu-circle:before {
+  content: "\e712";
+}
+
+.icon-RSS:before {
+  content: "\e604";
+}
+
+.icon-ziyuan:before {
+  content: "\ef20";
+}
+
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
+
+.icon-gitlab:before {
+  content: "\e601";
+}
+
+.icon-blogger:before {
+  content: "\e613";
+}
+
+.icon-leetcode:before {
+  content: "\ebf2";
+}
+
+.icon-bilibili-fill:before {
+  content: "\e652";
+}
+
+.icon-weibo:before {
+  content: "\ea8c";
+}
+
+.icon-GitHub:before {
+  content: "\e602";
+}
+
